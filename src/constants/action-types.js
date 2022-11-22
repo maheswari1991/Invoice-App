@@ -1,0 +1,18 @@
+export const LOGGED_IN = "LOGGED_IN"
+export const LOGGED_OUT = "LOGGED_OUT"
+export const OPEN_DIALOG= "OPEN_DIALOG"
+export const CLOSE_DIALOG= "CLOSE_DIALOG"
+
+export const BASE_URL = "https://vigneshds.pythonanywhere.com/"
+
+export const LOGIN_URL = "invoice/api/v1/login_user"
+export const URL_GET_CUSTOMERS = "invoice/api/v1/get_my_customers"
+export const URL_ADD_CUSTOMERS = "invoice/api/v1/add_customer"
+export const URL_EDIT_CUSTOMERS = "invoice/api/v1/update_customer"
+export const URL_GET_PRODUCTS = "invoice/api/v1/get_products"
+export const URL_ADD_PRODUCTS = "invoice/api/v1/add_product"
+export const URL_EDIT_PRODUCTS = "invoice/api/v1/update_product"
+export const URL_GET_TAX = "invoice/api/v1/get_tax_list"
+export const URL_ADD_TAX = "invoice/api/v1/add_tax"
+export const URL_EDIT_TAX = "invoice/api/v1/update_tax"
+export const URL_GET_COUNTRY = "invoice/api/v1/get_countries"
